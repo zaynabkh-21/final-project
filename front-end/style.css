@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    border: 1px solid #2D1E50;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body.darkmode {
+    background-color: #222;
+    color: #fff;
+}
+
+.header{
+    color: #2D1E50;
+    text-align: center;
+}
+
+.footer{
+    color: #2D1E50;
+    text-align: center;
+    border: 1px solid #2D1E50;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+main{
+    background-color: #FAF7F2;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#task-input{
+    padding: 10px;
+    border: 1px solid #2D1E50;
+    border-radius: 20px
+}
+
+.add-butt {
+    background-color: #2D1E50;
+    color: #fff;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.add-butt:hover {
+    background-color: white;
+    color: #2D1E50;
+}
+
+#task-type{
+    border: 1px solid #2D1E50;
+    border-radius: 5px;
+}
+
+.check-it {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+body.darkmode .add-butt {
+    background-color: #23233a;
+    color: white;
+    border: 1px solid white;
+}
+
+body.darkmode .add-butt:hover {
+    background-color: white;
+    color: #2D1E50;
+}
+body.darkmode main {
+    background-color: #23233a;
+    color: #fff;
+}
